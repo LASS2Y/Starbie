@@ -1,0 +1,13 @@
+# KiCad temporary files
+*-backups/
+*.bak
+*-bak
+_autosave-*
+\#auto_saved_files\#
+*.lck
+~*.lck
+fp-info-cache
+*.kicad_prl
+
+# VS Code Local History
+.history/
