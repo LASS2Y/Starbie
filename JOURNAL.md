@@ -14,13 +14,31 @@
 
 ## Contents
 
-1. [2026-10-07 — Work session](#2026-10-07-work-session)
+1. [2026-10-07 — Routing finished, DRC cleanup & Arduino IDE setup](#2026-10-07-routing-finished-drc-cleanup-arduino-ide-setup)
 
 ## Design
 
-### 2026-10-07 — Work session
+### 2026-10-07 — Routing finished, DRC cleanup & Arduino IDE setup
 
 **0.83h**
+
+Routing finished, DRC cleanup & Arduino IDE setup
+
+Hi, I'm Lincoln and I'm building Starbie, a tiny motion-controlled desktop pet (basically a Tamagotchi) for the Half Life starter project.
+
+Quick context: I was so excited about this project that I just read the guide on GitHub and jumped straight into KiCad without exploring the Half Life site first. In that first session I did the whole schematic (importing the care package libraries, assigning footprints) and started the PCB: star-shaped board outline and component placement. I didn't know about Lapse yet, so that session wasn't recorded. After that I learned how journaling and timelapses work here, so from now on every session gets recorded.
+
+What I did today (recorded):
+- Finished the PCB routing (0 unconnected items in the DRC )
+- Worked through the DRC violations: a malformed courtyard on the OLED footprint (J2)
+- Set up the Arduino IDE for the XIAO ESP32-C3 following the guide and added the firmware sketch to the repo. I can't upload it yet since I don't have the board, but it compiles
+
+Next:
+fix the remaining DRC errors, export the 3D render and the Gerbers, then start working on the firmware.
+
+![Capture d'écran 2026-10-07 200116](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/cdb0c9f7690ed2d432fcfbd554da692906107200efc705e56eef9fdadbf7c1ec.png)
+
+![Capture d'écran 2026-10-07 200238](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/c7cd9b2a8c54f64efe295cd6040ac800791bbf4d6340bc2952eda89394242158.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/dac7c358-3f88-421e-8c8a-101437cc0d59/video.mp4)
 
