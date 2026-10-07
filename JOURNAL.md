@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 1.83h | 2 |
+| Week 1 | Tier 1 | 2.95h | 2 |
 
 ## Contents
 
@@ -47,7 +47,7 @@ fix the remaining DRC errors, export the 3D render and the Gerbers, then start w
 
 ### 2026-10-07 — DRC fixed, first look at the firmware, Gerbers & BOM exported
 
-**1h**
+**2.12h**
 
 DRC fixed, first look at the firmware, Gerbers & BOM exported
 
@@ -64,3 +64,5 @@ Next: render the board in 3D and start writing my own firmware for Starbie.
 ![Capture d'écran 2026-10-07 212559](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/d1e7a380023230f7f1dc3257c1a080414e3353b338ab5062657b3cfe37390502.png)
 
 ![Capture d'écran 2026-10-07 212936](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/ba7fea44c644b54903ca95530b84b4fb6ef9d13f2e2b9f50c86c6a948f2a4d78.png)
+
+[Timelapse](https://lookout.hackclub.com/api/media/34e4aa33-3807-4683-aedb-9ee2bf594cd3/video.mp4)
