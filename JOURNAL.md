@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 2.95h | 2 |
+| Week 1 | Tier 1 | 1.95h | 2 |
 
 ## Contents
 
@@ -47,7 +47,7 @@ fix the remaining DRC errors, export the 3D render and the Gerbers, then start w
 
 ### 2026-10-07 — DRC fixed, first look at the firmware, Gerbers & BOM exported
 
-**2.12h**
+**1.12h**
 
 DRC fixed, first look at the firmware, Gerbers & BOM exported
 
