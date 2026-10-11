@@ -367,15 +367,27 @@
 			(uuid "ba2cbb7a-9125-49ce-87b9-f5dc3620f35b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/Cherry MX.STEP"
+			(hide yes)
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/DSA_Keycap_CherryMX.step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -659,15 +671,26 @@
 			(uuid "a9b2d08e-016e-4a8e-962d-f8bad66bba39")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/Cherry MX.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/DSA_Keycap_CherryMX.step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -678,7 +701,7 @@
 		(descr "Display 0.96\" OLED 128x64 pixel with SSD1306 controller and I2C interface")
 		(tags "display OLED SSD1306 128x64")
 		(property "Reference" "J2"
-			(at -0.2286 10.8712 0)
+			(at -0.2286 13.5 0)
 			(layer "F.SilkS")
 			(uuid "eb7b5bb4-3b00-48b3-b78c-b8896e823f77")
 			(effects
@@ -713,7 +736,6 @@
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "798fbe80-3d66-485e-be6f-6512bbfeeb2e")
 			(effects
 				(font
@@ -868,8 +890,8 @@
 			(uuid "07cf48f4-5f47-4070-b60c-2107b22793b6")
 		)
 		(fp_line
-			(start -5.61 1.927)
-			(end 5.59 1.927)
+			(start -5.61 1.8)
+			(end 5.59 1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1054,6 +1076,17 @@
 			(uuid "f50d5d46-40c7-44cc-add8-531f59ab0023")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/0.96'' OLED Display.step"
+			(offset
+				(xyz 0 -12 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -1541,15 +1574,15 @@
 			(uuid "f395529f-c726-461b-9089-ca6176a97416")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/GY-521_MPU6050 Accelerometer.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7 -9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -1561,11 +1594,12 @@
 			(at -0.125 -10.25 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8ce56788-7582-49d4-980d-663791471b61")
+			(uuid "9f7732fc-e182-47b5-b7a7-48e8cdd51a8b")
 			(effects
 				(font
-					(size 0.635 0.635)
-					(thickness 0.1016)
+					(size 0.8 0.8)
+					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
@@ -1573,7 +1607,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5e1e6b26-3a74-43ab-8176-69147193e199")
+			(uuid "8fe8e786-8826-4f99-a723-e9a93edc9d6d")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1586,7 +1620,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19ac3fb2-07b5-4b49-81d6-cb1508c473d2")
+			(uuid "2061ecc5-3633-4160-b2a2-413bd8c4ecd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1632,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12eacda4-b081-4aa3-9f38-cb67d1a1ea3f")
+			(uuid "d511aebf-0e7f-4fde-af27-41a900bdd4f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,57 +2154,9 @@
 			(uuid "5f232da7-695f-4cc9-9062-7892a392f828")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.096 0.381)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-			(hide yes)
+		(model "${KIPRJMOD}/Week 1 Care Package/3D Models/Seeed Studio XIAO-ESP32-C3.step"
 			(offset
 				(xyz -1.7018 -6.096 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.1722 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3183,26 +3169,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "9d94fcdf-1982-4be2-914e-db7d61f9046d")
-	)
-	(gr_line
-		(start 150.776 95.073)
-		(end 150.776 95.2)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "8a2d3506-8672-4579-8259-bc4a36e6531a")
-	)
-	(gr_line
-		(start 161.976 95.073)
-		(end 161.976 95.2)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "261e876a-8cf8-4c3a-84a1-9ea30c66b907")
 	)
 	(segment
 		(start 122.37 114.67)

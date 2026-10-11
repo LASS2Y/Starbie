@@ -1,0 +1,83 @@
+** Drc report for Starbie.kicad_pcb **
+** Created on 2026-10-07T14:23:20 **
+** Report includes: Errors, Warnings **
+
+** Found 18 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(156.3660 mm, 97.0000 mm): Footprint J2
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(156.3660 mm, 97.0000 mm): Footprint J2
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(185.1200 mm, 88.3800 mm): Footprint U2
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(227.5000 mm, 49.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(179.5000 mm, 105.3400 mm): PTH pad 2 [GND] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 80.7600 mm): Pad 1 [unconnected-(U2-D0-Pad1)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 83.3000 mm): Pad 2 [/DHT11 DATA] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 85.8400 mm): Pad 3 [/GPIO2] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 88.3800 mm): Pad 4 [/GPIO3] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 90.9200 mm): Pad 5 [/SCL] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 93.4600 mm): Pad 6 [/SDA] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(176.2300 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(176.6650 mm, 96.0000 mm): Pad 7 [unconnected-(U2-D6-Pad7)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 96.0000 mm): Pad 8 [unconnected-(U2-D7-Pad8)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 93.4600 mm): Pad 9 [unconnected-(U2-D8-Pad9)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 90.9200 mm): Pad 10 [unconnected-(U2-D9/BOOT-Pad10)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 88.3800 mm): Pad 11 [unconnected-(U2-D10-Pad11)_1] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 85.8400 mm): Pad 12 [+3.3V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 83.3000 mm): Pad 13 [GND] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(194.0100 mm, 96.8890 mm): Segment of U2 on F.Silkscreen
+    @(193.5750 mm, 80.7600 mm): Pad 14 [+5V] of U2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - None
+
+** End of Report **

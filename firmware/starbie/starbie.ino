@@ -26,10 +26,10 @@
 // --- Your board's pins ----------------------------------------------------
 // These are ESP32-C3 GPIO numbers, with the XIAO pin labels beside them.
 const int I2C_SDA_PIN = 6;       // XIAO D4: OLED + MPU6050 SDA
-const int I2C_SCL_PIN = 7;       // XIAO D5: OLED + MPU6050 SCL
-const int DHT_PIN = 3;           // XIAO D1: DHT11 data
-const int BUTTON_ONE_PIN = 4;    // XIAO D2: opens/confirms the radial menu
-const int BUTTON_TWO_PIN = 5;    // XIAO D3: shows/hides stats
+const int I2C_SCL_PIN = 5;       // XIAO D5: OLED + MPU6050 SCL
+const int DHT_PIN = 2;           // XIAO D1: DHT11 data
+const int BUTTON_ONE_PIN = 3;    // XIAO D2: opens/confirms the radial menu
+const int BUTTON_TWO_PIN = 4;    // XIAO D3: shows/hides stats
 
 // Set this to false if your submission does not have a DHT11.
 const bool USE_DHT11 = true;
@@ -446,6 +446,18 @@ void handleButtons() {
   }
 }
 
+void drawSparkle(int x, int y) {
+  display.drawPixel(x, y - 2, SSD1306_WHITE);
+  display.drawPixel(x - 1, y - 1, SSD1306_WHITE);
+  display.drawPixel(x + 1, y - 1, SSD1306_WHITE);
+  display.drawPixel(x - 2, y, SSD1306_WHITE);
+  display.drawPixel(x, y, SSD1306_WHITE);
+  display.drawPixel(x + 2, y, SSD1306_WHITE);
+  display.drawPixel(x - 1, y + 1, SSD1306_WHITE);
+  display.drawPixel(x + 1, y + 1, SSD1306_WHITE);
+  display.drawPixel(x, y + 2, SSD1306_WHITE);
+}
+
 void drawHeart(int x, int y) {
   // A tiny seven-pixel-wide heart that stays crisp on the OLED.
   display.fillRect(x - 2, y, 2, 2, SSD1306_WHITE);
@@ -511,6 +523,9 @@ void drawPet() {
   petX = constrain(petX, 0, SCREEN_WIDTH - PET_SPRITE_WIDTH);
   display.drawBitmap(petX, petY, PET_SPRITE, PET_SPRITE_WIDTH, PET_SPRITE_HEIGHT,
                      SSD1306_WHITE);
+                     if (!isNapping() && (now / 250) % 2 == 0) {
+  drawSparkle(petX - 4, petY + 18);
+}
 
   if (isNapping()) {
     drawSleepZs(now, petX, petY);
