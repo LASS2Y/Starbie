@@ -109,4 +109,6 @@ guide, repo setup, schematic, footprints, board outline and placement, all done 
 
 **1.1h**
 
+Work session
+
 [Timelapse](https://lookout.hackclub.com/api/media/abd96a50-ba3a-4c27-8083-e836d89362fe/video.mp4)
