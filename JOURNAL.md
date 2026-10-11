@@ -17,7 +17,7 @@
 1. [2026-10-07 – Routing finished, DRC cleanup & Arduino IDE setup](#2026-10-07-routing-finished-drc-cleanup-arduino-ide-setup)
 2. [2026-10-07 – DRC fixed, first look at the firmware, Gerbers & BOM exported](#2026-10-07-drc-fixed-first-look-at-the-firmware-gerbers-bom-)
 3. [2026-10-07 – ##Catching up: unrecorded work from my first sessions](#2026-10-07-catching-up-unrecorded-work-from-my-first-session)
-4. [2026-10-11 – Work session](#2026-10-11-work-session)
+4. [2026-10-11 – DRC cleaned up & 3D models added](#2026-10-11-drc-cleaned-up-3d-models-added)
 
 ## Design
 
@@ -105,10 +105,22 @@ guide, repo setup, schematic, footprints, board outline and placement, all done 
 
 ![Capture d'écran 2026-10-07 215600](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/2a4a0f3a753b161cfe95db1be8ee4ee077d9d172391af61c7876e1e405702877.png)
 
-### 2026-10-11 – Work session
+### 2026-10-11 – DRC cleaned up & 3D models added
 
 **1.1h**
 
-Work session
+DRC cleaned up & 3D models added
+
+Tonight I went through all the remaining DRC errors (warnings) on Starbie.
+
+Then I added the 3D models from the care package. The footprints were pointing to a missing path, so I relinked the XIAO ESP32-C3, the 0.96" OLED and the MPU6050 with ${KIPRJMOD} paths so they work from the repo, and aligned each model with its pads.
+
+![Capture d'écran 2026-10-11 235639](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/2195e2cd5723e2dcd7e377592ee127b9a06b8e2c159516b7219707697f710298.png)
+
+[I also exported a new 3D render and regenerated the Gerbers.] Everything is pushed to GitHub.
+
+Next: personalize the silkscreen and start on the firmware.
+
+![Capture d'écran 2026-10-11 235624](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/YMcMaxGqSxOfuY1prz86ejMK3z2413Yv/76b89d150082ce4a230f6aaf7bedac3731df12b614a33aa8636d4a20d36166e5.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/abd96a50-ba3a-4c27-8083-e836d89362fe/video.mp4)
